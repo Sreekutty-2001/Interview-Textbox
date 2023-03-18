@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './Textbox.css'
 function Textbox() {
   const [state, setState] = useState('');
 
@@ -12,7 +12,8 @@ function Textbox() {
 };
   return (
     <div >
-      <input
+      <h1 className='heading'>TEXTBOX</h1>
+      <input className='input'
        
         name="message"
         type="text"

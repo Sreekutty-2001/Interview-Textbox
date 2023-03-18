@@ -1,0 +1,18 @@
+.heading{
+    /* background-color: aqua; */
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.input{
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+    color: black;
+    height: 25px;
+    width: 250px;
+
+}
+.input:hover{
+    color: white;
+    background-color: black;
+}
